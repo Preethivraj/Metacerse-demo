@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: #f0f4ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background: #4f46e5;
+  color: white;
+  padding: 1rem;
+}
+button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.timeline {
+  list-style: none;
+  padding: 1rem;
+}
+.timeline li {
+  background: white;
+  margin: .5rem 0;
+  padding: .5rem;
+  border-radius: 5px;
+}
+.timeline .current { background: #fde68a; }
+.timeline .done { background: #bbf7d0; }
+.vr-bg {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+}
+.quiz { margin-top: 1rem; }
+.xp-bar {
+  background: #ddd; width: 200px; height: 10px; margin: 1rem auto; border-radius: 5px;
+}
+#xp-fill {
+  background: #22c55e; width: 40%; height: 10px; border-radius: 5px;
+}
